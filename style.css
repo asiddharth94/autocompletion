@@ -17,5 +17,13 @@
 
 .autocomp__search-results {
     margin: 0;
+    padding: 0;
+    border: 1px solid rgba(0,0,0,0.25);
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.autocomp__search-results li {
+    padding: 1rem;
 }
